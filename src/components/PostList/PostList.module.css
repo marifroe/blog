@@ -4,4 +4,13 @@
   width: 50%;
   gap: 50px;
   margin: 0px auto;
+  padding: 20px;
+  border-radius: 30px;
+
+  /* Frosted Glass Effect */
+  background: rgba(72, 95, 131, 0.5);
+  box-shadow: 0 4px 10px rgba(72, 95, 131, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(72, 95, 131, 0.2);
 }

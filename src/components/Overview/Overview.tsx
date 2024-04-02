@@ -68,14 +68,13 @@ const Overview = (props: OverviewProps) => {
   
   return (
     <>
-      <h1>{props.title}</h1>
+      <h1 className={styles.title}>{props.title}</h1>
       <Navigation currentPage={page} onSwitchPage={page => handlePageSwitch(page)} />
       {isLoading
         ? <div>Loading...</div>
         : <PostList posts={posts} />
       }
-
-      </>
+    </>
   )
 }
 

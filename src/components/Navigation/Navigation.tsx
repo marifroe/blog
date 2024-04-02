@@ -20,9 +20,9 @@ const Navigation = ({
 
   return (
     <div className={styles.navigation}>
-        <button onClick={prevPage} disabled={currentPage === 0}>Prev</button>
+        <button onClick={prevPage} disabled={currentPage === 0} className={styles.navButton}>Prev</button>
         <p className={styles.pageDisplay}>Page {currentPage}</p>
-        <button onClick={nextPage}>Next</button>
+        <button onClick={nextPage} className={styles.navButton}>Next</button>
       </div>
   )
 }
